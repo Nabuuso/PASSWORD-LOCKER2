@@ -1,5 +1,8 @@
-import random 
+import random
+from typing import Any 
 from user import user
+
+Any main()
 
 while True:
     print("welcome to password locker!!!")
@@ -64,11 +67,11 @@ elif shortcode == 'lg':
         print('\n')
         print('\n')
         
-elif short_code =="ex"
-     break
+    elif short_code =="ex"
+        break
 
-else:
-    print("Enter valid code to continue")
+    else:
+        print("Enter valid code to continue")
     
 if __name__ == '_main_':
     main()      
