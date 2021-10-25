@@ -25,7 +25,7 @@ From a terminal window, change to the local directory where you want to clone yo
 
 or just use this
 
-$ git clone 
+$ git clone https://github.com/Nabuuso/PASSWORD-LOCKER2.git
 
 Run the following command to make the app executable;
 $ chmod +x run.py
