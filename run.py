@@ -1,4 +1,4 @@
-import random
+import user
 from user import user
 
 def main():
