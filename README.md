@@ -25,7 +25,7 @@ From a terminal window, change to the local directory where you want to clone yo
 
 or just use this
 
-$ git clone https://github.com/watibini/password-locker.git
+$ git clone 
 
 Run the following command to make the app executable;
 $ chmod +x run.py
