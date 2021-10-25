@@ -32,3 +32,14 @@ $ chmod +x run.py
 
 Run this command to open the app
 $ ./run.py
+## Contact Information
+
+Email-(wagabaliz@gmail.com)
+
+Github user name -Nabuuso
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Sr Betty Nabuuso(fsp)
