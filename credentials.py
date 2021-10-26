@@ -5,16 +5,11 @@ class Credentials:
 
     credentials_detail = []
 
-    def __init__(self,credentials_detail):
+    def __init__(self, user_name, password,platform) ->None:
+        self.user_name = user_name
+        self.password = password
+        self.platform = platform
 
-        """
-        the __init__method helps us define properties for our objects.
-        """
-
-
-        self.credentials_detail = credentials_detail
-
-
-        """
-        arguments for our __init__method will include the following.
-        """
+    def append_credentials(self):
+        Credentials.user_credentials.append(self)
+        
