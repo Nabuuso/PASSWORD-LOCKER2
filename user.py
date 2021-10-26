@@ -24,7 +24,7 @@ class user:
         return user.user_list
             
     @classmethod
-    def getSingleInstance(cls):
+    def getsingleinstance(cls):
         list = cls.user_list
         for i in list:
             print(i.__dict___)
@@ -36,4 +36,4 @@ print(x.user_name)
 print(x.user_list)
 y=x.display_data()
 print(y)
-x.getSingleInstance()
+x.getsingleinstance()

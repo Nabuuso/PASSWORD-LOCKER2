@@ -3,7 +3,7 @@ class Credentials:
     Class that will generate new instances of credentials
     """
 
-    credentials_detail = []
+    user_credentials = []
 
     def __init__(self, user_name, password,platform) ->None:
         self.user_name = user_name
@@ -12,4 +12,8 @@ class Credentials:
 
     def append_credentials(self):
         Credentials.user_credentials.append(self)
+        
+    @classmethod
+    def generate_password(cls, length):
+        characters = string.ascii_letters + string.ascii_lowercase + string.ascii_uppercase + string.digits
         
