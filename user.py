@@ -22,8 +22,7 @@ class user:
         display objects in the list
         """
         return user.user_list
-        
-        
+            
     @classmethod
     def getSingleInstance(cls):
         list = cls.user_list
