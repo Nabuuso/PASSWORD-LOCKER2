@@ -30,10 +30,10 @@ class user:
             print(i.__dict___)
         
 
-x = user('Betty', "!@#$")
-x.append_user()
-print(x.user_name)
-print(x.user_list)
-y=x.display_data()
-print(y)
-x.getsingleinstance()
+# x = user('Betty', "!@#$")
+# x.append_user()
+# print(x.user_name)
+# print(x.user_list)
+# y=x.display_data()
+# print(y)
+# x.getsingleinstance()

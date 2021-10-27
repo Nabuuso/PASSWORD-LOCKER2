@@ -1,6 +1,8 @@
 
-
 def main(): 
+    # def create_user(user, password):
+    #     new user = user(user_name = name, password =password)
+        
     while True:
         # print("sign in => To login to app")
         # print("x => To logout from app")
@@ -23,6 +25,8 @@ def main():
             
             print('confirm password')
             confirm_password =input
+            
+            # save_user(create user(user_name, user_password))
     
             while confirm_password!= created_user_password:
                 print("invalid password did not match!!")
