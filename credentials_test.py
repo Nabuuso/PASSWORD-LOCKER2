@@ -1,10 +1,10 @@
 import unittest # Importing the unittest module
-from user import user # Importing the user class
+from credentials import Credentials # Importing the user class
 
 class Testuser(unittest.TestCase):
     
     '''
-    Test class that defines test cases for the contact class behaviours.
+    Test class that defines test cases for the credentials class behaviours.
 
     Args:
         unittest.TestCase: TestCase class that helps in creating test cases
@@ -16,7 +16,7 @@ class Testuser(unittest.TestCase):
         '''
         Set up method to run before each test cases.
         '''
-        self.new_user = user("user_name","password") # create user object
+        self.new_credentials = Credentials("user_name","password", "platform") # create user object
 
 
     def test_init(self):
