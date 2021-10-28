@@ -34,7 +34,7 @@ Run this command to open the app
 $ ./run.py
 ## Contact Information
 
-Email-(wagabaliz@gmail.com)
+Email- wagabaliz@gmail.com
 
 Github user name -Nabuuso
 
