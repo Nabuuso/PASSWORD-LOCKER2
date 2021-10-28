@@ -1,14 +1,7 @@
 
 def main(): 
-    # def create_user(user, password):
-    #     new user = user(user_name = name, password =password)
         
     while True:
-        # print("sign in => To login to app")
-        # print("x => To logout from app")
-        # user_choice = input().lower()
-        # if user_choice == 'signin':
-        #     print('welcome')
             
         print("welcome to password locker!!!")
         print('\n')
